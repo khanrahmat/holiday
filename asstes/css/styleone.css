@@ -1,0 +1,1524 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "poppins", sans-serif;
+  src: url(../fonts/poppins);
+}
+
+body {
+  /* background: #0f0705 !important; */
+  width: 100% !important;
+  height: 100vh !important;
+  font-family: "poppins", sans-serif;
+  background: linear-gradient(to right, #0e1e0b, #200909, #131212) !important;
+
+  /* background: linear-gradient(135deg, rgba(2, 126, 63, 0.812) -1.25%, rgba(1, 1, 1, 0.405) 104.62%); */
+}
+
+/* landing page css start ------------------------- */
+.wholeBg {
+  background: #0b0000;
+}
+
+.welcome {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+
+  text-transform: capitalize;
+}
+
+.holiday {
+  background: linear-gradient(
+    180deg,
+    #fff 0%,
+    rgba(255, 255, 255, 0) 118.12%,
+    rgba(255, 255, 255, 0) 118.12%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Arial;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.memories {
+  background: linear-gradient(
+    180deg,
+    #fff 0%,
+    rgba(255, 255, 255, 0) 118.12%,
+    rgba(255, 255, 255, 0) 118.12%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Lucida Calligraphy;
+  font-size: 35px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.navbar-toggler-icon{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+.nav-bg{
+  background-color: #170e0e75 !important;
+  border: none !important;
+  font-size: 1.2rem !important;
+}
+/* @media (max-width: 992px) {
+  .nav-bg{
+    display: none !important;
+  }
+} */
+.trust {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.discover {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.getBtn {
+  color: #fcfffe;
+  text-align: center;
+  font-family: Poppins;
+  border: 1px solid white;
+  border-radius: 28px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.getBtn:hover {
+  color: #fcfffe;
+  text-align: center;
+  font-family: Poppins;
+  border: 1px solid white;
+  border-radius: 28px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.planeImg {
+  height: 300px;
+  padding-top: 20px;
+}
+@media (max-width: 567px) {
+  .planeImg {
+    height: unset !important;
+    padding-top: 20px;
+  }
+ 
+  
+}
+
+.govtHeight {
+  height: 100px;
+}
+
+.whyHead {
+  background: linear-gradient(
+    180deg,
+    #fff 0%,
+    rgba(255, 255, 255, 0) 118.12%,
+    rgba(255, 255, 255, 0) 118.12%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Arial;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.tickImg {
+  height: 40px;
+}
+
+.registered {
+  background: linear-gradient(
+    180deg,
+    #fff 0%,
+    rgba(255, 255, 255, 0) 118.12%,
+    rgba(255, 255, 255, 0) 118.12%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Arial;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
+.haveTravel {
+  color: #fff;
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.cardBorder {
+  border: 2px solid !important;
+  border-image: linear-gradient(to right, #6b000a, #027e3f) 10 !important;
+  border-image-slice: 1 !important;
+  border-radius: 10px !important;
+  /* height: 250px; */
+}
+
+.test {
+  background: linear-gradient(
+    180deg,
+    #fff 0%,
+    rgba(255, 255, 255, 0) 118.12%,
+    rgba(255, 255, 255, 0) 118.12%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Arial;
+  text-align: center !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  font-style: normal;
+  padding-block: 100px !important;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.posOne {
+  position: relative;
+  background: linear-gradient(to right, #070f06, #150606, #000000) !important;
+
+  background-clip: padding-box;
+
+  border: solid 2px transparent !important;
+  border-radius: 300px !important;
+  height: 600px !important;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -5px;
+    border-radius: inherit;
+    background: linear-gradient(to left, rgb(60, 117, 0), rgb(98, 3, 3));
+  }
+}
+
+.testPic {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+.publish {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  padding-inline: 200px;
+}
+
+.comaPic {
+  height: 100px !important;
+}
+.ppp3 {
+  background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0.5) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-inline: 85px !important;
+  text-align: center;
+  font-family: Arial;
+  font-size: 45px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+  .ppp3 {
+    padding-inline: 0px !important;
+  }
+}
+/* service section css  */
+
+.about {
+  font-size: 4.5rem !important;
+  margin-top: 5rem !important;
+  background: -webkit-linear-gradient(
+    90deg,
+    rgb(46, 37, 37),
+    rgb(255, 255, 255)
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.airPlaneOne {
+  width: 250px !important;
+}
+@media (max-width: 576px) {
+  .airPlaneOne {
+    width: 500px !important;
+  }
+  .glo {
+    height: 70px !important;
+    width: 80px !important;
+  }
+}
+
+.visaClass {
+  font-family: Arial;
+  font-size: 70px;
+  font-weight: 700;
+  text-transform: capitalize;
+  background: var(
+    --silver,
+    linear-gradient(
+      180deg,
+      #fff 0%,
+      rgba(255, 255, 255, 0) 118.12%,
+      rgba(255, 255, 255, 0) 118.12%
+    )
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (max-width: 576px) {
+  .visaClass {
+    font-size: 40px !important;
+  }
+}
+/* .planeDiv {
+  background-image: url("../img/service-airplene.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
+  height: 200px !important;
+  width: 200px !important;
+} */
+
+@media (max-width: 500px) {
+  .planeEarth {
+    display: none;
+  }
+  .fontSize {
+    font-size: 9px !important;
+  }
+  .callIcon {
+    width: 17px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .visaClass {
+    font-size: 40px !important;
+  }
+  .airPlaneOne {
+    width: 200px !important;
+  }
+  .cantactMar {
+    padding-block: 40px !important;
+  }
+  /* 
+  .glo {
+    height: 250px !important;
+    width: 250px !important;
+  } */
+  .i11 {
+    width: 623px !important;
+  }
+  .i6 {
+    width: 620px !important;
+  }
+  .ppp3 {
+    font-size: 30px;
+    padding-inline: 0px !important;
+  }
+  .about {
+    font-size: 3rem !important;
+  }
+  .offerHead {
+    font-size: 40px !important;
+  }
+  .planeH {
+    height: 125px;
+  }
+  .our {
+    font-size: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .visaClass {
+    font-size: 30px !important;
+  }
+}
+.border {
+  display: grid;
+  place-items: center;
+  border: 2px solid !important;
+}
+
+.full-withradiusService {
+  position: relative;
+  background: linear-gradient(to right, #070f06, #150606, #000000) !important;
+
+  background-clip: padding-box;
+
+  border: solid 2px transparent !important;
+  border-radius: 20px !important;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -8px;
+    border-radius: inherit;
+    background: linear-gradient(to left, rgb(60, 117, 0), rgb(98, 3, 3));
+  }
+}
+.navbar-toggler {
+  border: none !important;
+  background: unset !important;
+}
+.full-withradiusone {
+  position: relative;
+  background: linear-gradient(to right, #070f06, #150606, #000000) !important;
+
+  background-clip: padding-box;
+
+  /* border: solid 5px transparent !important; */
+  border-radius: 20px !important;
+  height: 300px;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -4px;
+    border-radius: inherit;
+    background: linear-gradient(to left, rgb(60, 117, 0), rgb(98, 3, 3));
+    opacity: 0.7;
+  }
+}
+
+.full-withradiusCont {
+  position: relative;
+  background: linear-gradient(to right, #070f06, #150606, #000000) !important;
+
+  background-clip: padding-box;
+
+  border-radius: 12px !important;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -4px;
+    border-radius: inherit;
+    background: linear-gradient(to left, rgb(60, 117, 0), rgb(98, 3, 3));
+    opacity: 0.7;
+  }
+}
+.full-withradiusBook {
+  position: relative;
+  background: linear-gradient(to right, #140e07, #150606, #1c0e09) !important;
+
+  background-clip: padding-box;
+
+  /* border: solid 5px transparent !important; */
+  border-radius: 30px !important;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -4px;
+    border-radius: inherit;
+    background: linear-gradient(to left, rgb(60, 117, 0), rgb(98, 3, 3));
+    opacity: 0.6;
+  }
+}
+.full-withradiusSer {
+  position: relative;
+  background: linear-gradient(to right, #070f06, #150606, #000000) !important;
+
+  background-clip: padding-box;
+
+  border: solid 5px transparent !important;
+  border-radius: 20px !important;
+  height: 330px;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -8px;
+    border-radius: inherit;
+    background: linear-gradient(
+      to left,
+      rgb(60, 117, 0),
+      rgb(98, 3, 3)
+    ) !important;
+  }
+}
+.full-withradiusServicemain {
+  position: relative;
+  background: linear-gradient(to right, #070f06, #150606, #000000) !important;
+
+  background-clip: padding-box;
+
+  border: 1px transparent !important;
+  border-radius: 20px !important;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -8px;
+    border-radius: inherit;
+    background: linear-gradient(to left, rgb(60, 117, 0), rgb(98, 3, 3));
+  }
+}
+.whyimg {
+  height: 150px;
+}
+.whyPos {
+  top: 0px;
+  right: 0px;
+}
+
+.offerHead {
+  font-family: Arial;
+  font-size: 70px !important;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  background: linear-gradient(
+    180deg,
+    #fff 0%,
+    rgba(255, 255, 255, 0) 118.12%,
+    rgba(255, 255, 255, 0) 118.12%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.planeEarth {
+  bottom: -100px;
+}
+.planeH {
+  height: 200px;
+}
+
+.card-button {
+  border-radius: 25px;
+  /* border-top: 1px solid #FFF; */
+  border-top: 1px solid rgba(255, 255, 255, 0.9); /* Adjust the last value (0.5) for opacity */
+
+  border-left: 1px solid rgba(255, 255, 255, 0.9);
+  border-right: 1px solid rgba(255, 255, 255, 0.7);
+  background: linear-gradient(
+    135deg,
+    rgba(2, 126, 63, 0.4) -1.25%,
+    rgba(16, 19, 35, 0) 104.62%
+  );
+  /* padding-block: 5px !important; */
+
+  /* border-bottom: 1px solid rgba(137, 137, 133, 0.6); Adjust the last value (0.7) for opacity */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+/* service section css  */
+
+/* trip section css start  */
+
+.trip {
+  background: linear-gradient(to right, #060d05, #150606, #000000) !important;
+}
+
+.border {
+  display: grid;
+  place-items: center;
+  border: 5px solid !important;
+}
+
+.full-withrad {
+  position: relative;
+  background: linear-gradient(to right, #070f06, #150606, #000000) !important;
+
+  background-clip: padding-box;
+
+  border: solid 5px transparent !important;
+  border-radius: 1rem;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -8px;
+    border-radius: inherit;
+    background: linear-gradient(to left, rgb(60, 117, 0), rgb(98, 3, 3));
+  }
+}
+
+.trip-btn {
+  border-radius: 90px;
+  background: #6b000a !important;
+}
+
+.mission {
+  background: -webkit-linear-gradient(
+    90deg,
+    rgb(46, 37, 37),
+    rgb(255, 255, 255)
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+/* trip section css end  */
+
+/* achivement section css  */
+
+.borderOne {
+  display: grid;
+  place-items: center;
+  border: 2px solid !important;
+  box-shadow: 30px 30px 85px 0px rgba(14, 146, 80, 0.25),
+    -20px -20px 85px 0px rgba(22, 150, 86, 0.25);
+}
+.logHeight {
+  height: 65px !important;
+  width: 65px !important;
+}
+
+.about {
+  font-size: 4.5rem !important;
+  margin-top: 5rem !important;
+  background: -webkit-linear-gradient(
+    90deg,
+    rgb(46, 37, 37),
+    rgb(255, 255, 255)
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.jordan {
+  font-family: Arial;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  background: var(
+    --silver,
+    linear-gradient(
+      180deg,
+      #fff 0%,
+      rgba(255, 255, 255, 0) 118.12%,
+      rgba(255, 255, 255, 0) 118.12%
+    )
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.jordanimg {
+  height: 200px !important;
+  width: 200px !important;
+  object-fit: cover;
+}
+.jordanDiv {
+  bottom: 50px;
+  right: 0px;
+}
+.jordanPad {
+  padding-top: 50px !important;
+}
+.unlockPara {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  padding-inline: 73px !important;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+  .about {
+    font-size: 3rem !important;
+  }
+  .jordanPara {
+    font-size: 13px !important;
+  }
+  .jordanimg {
+    height: 110px !important;
+    width: 110px !important;
+    object-fit: cover;
+  }
+  .jordanDiv {
+    bottom: 95px;
+    right: 0px;
+  }
+  .full-withradiusBook {
+    height: 300px !important;
+  }
+  .unlockPara {
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    padding-inline: 0px !important;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    font-size: 2rem !important;
+  }
+  .jordanimg {
+    display: none;
+  }
+  .haveTravel {
+    font-size: 14px !important;
+  }
+}
+
+.card-description {
+  background: -webkit-linear-gradient(
+    90deg,
+    rgb(46, 37, 37),
+    rgb(255, 255, 255)
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.full-withradius {
+  position: relative;
+  background: linear-gradient(to right, #070f06, #150606, #000000) !important;
+
+  background-clip: padding-box;
+
+  border: solid 2px transparent !important;
+  border-radius: 50% !important;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -8px;
+    border-radius: inherit;
+    background: linear-gradient(to left, rgb(60, 117, 0), rgb(98, 3, 3));
+  }
+}
+
+.achive-card {
+  width: 200px !important;
+  height: 200px !important;
+}
+
+@media (max-width: 667px) {
+  .achive-card {
+    width: 150px !important;
+    height: 150px !important;
+  }
+}
+@media (max-width: 480px) {
+  .achive-card {
+    width: 80px !important;
+    height: 80px !important;
+  }
+}
+/* achivement section css  */
+
+.jordanPara {
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.jordanEarth {
+  height: 100px;
+  width: 100px;
+}
+.hol {
+  background: var(
+    --silver,
+    linear-gradient(
+      180deg,
+      #fff 0%,
+      rgba(255, 255, 255, 0) 118.12%,
+      rgba(255, 255, 255, 0) 118.12%
+    )
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Arial;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.holone {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.mem {
+  background: var(
+    --silver,
+    linear-gradient(
+      180deg,
+      #fff 0%,
+      rgba(255, 255, 255, 0) 118.12%,
+      rgba(255, 255, 255, 0) 118.12%
+    )
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Lucida Calligraphy;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.globeImg {
+  height: 170px;
+}
+.glob {
+  top: -60px;
+  left: -3px;
+}
+.chairman {
+  font-family: Arial;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  background: var(
+    --silver,
+    linear-gradient(
+      180deg,
+      #fff 0%,
+      rgba(255, 255, 255, 0) 118.12%,
+      rgba(255, 255, 255, 0) 118.12%
+    )
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.us {
+  font-family: Arial;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  background: linear-gradient(
+    180deg,
+    #fff 0%,
+    rgba(255, 255, 255, 0) 118.12%,
+    rgba(255, 255, 255, 0) 118.12%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.unlock {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.meet {
+  font-family: Arial;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  background: var(
+    --silver,
+    linear-gradient(
+      180deg,
+      #fff 0%,
+      rgba(255, 255, 255, 0) 118.12%,
+      rgba(255, 255, 255, 0) 118.12%
+    )
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.imgwhy {
+  height: 150px;
+  /* width: 200px; */
+}
+.why {
+  top: -10px;
+  right: 0px;
+}
+.unwav {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+/* media query start ------------ */
+
+@media screen and (max-width: 680px) {
+  .glob {
+    display: none !important;
+  }
+  .why {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .midOne {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .testPic {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+  }
+  .publish {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .unwav {
+    font-size: 13px;
+  }
+  .why {
+    top: -22px;
+    right: 20px;
+  }
+  .imgwhy {
+    height: 65px;
+    /* width: 200px; */
+  }
+  .meet {
+    font-size: 40px;
+  }
+  .us {
+    font-size: 40px;
+  }
+  .unlock {
+    font-size: 15px;
+  }
+  .cantactMar {
+    padding-block: 10px !important;
+  }
+  .globeImg {
+    height: 110px !important;
+  }
+
+  .mem {
+    font-size: 13px;
+  }
+  .hol {
+    font-size: 16px;
+  }
+  .holone {
+    font-size: 13px;
+  }
+  .chairman {
+    font-size: 40px !important;
+  }
+  .airplane {
+    height: 200px !important;
+    width: 200px !important;
+  }
+  .formWdith {
+    width: 630px !important;
+  }
+  .globOne {
+    width: 200px !important;
+  }
+
+  .holiday {
+    font-size: 40px;
+  }
+  .about {
+    font-size: 40px !important;
+  }
+
+  .whyHead {
+    font-size: 40px;
+  }
+  .jordan {
+    font-size: 40px !important;
+  }
+
+  .memories {
+    font-size: 22px;
+  }
+
+  .cardBorder {
+    border: 2px solid !important;
+    border-image: linear-gradient(to right, #6b000a, #027e3f) 10 !important;
+    border-image-slice: 1 !important;
+    border-radius: 10px !important;
+    height: 260px !important;
+  }
+
+  .test {
+    font-size: 40px !important;
+    background: linear-gradient(
+      180deg,
+      #fff 0%,
+      rgba(255, 255, 255, 0) 118.12%,
+      rgba(255, 255, 255, 0) 118.12%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Arial;
+    padding-block: 50px !important;
+    font-style: normal;
+    text-align: center !important;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+
+  .ach {
+    font-family: Arial;
+    font-size: 35px !important;
+    font-weight: 700;
+    text-transform: capitalize;
+    background: var(
+      --silver,
+      linear-gradient(
+        180deg,
+        #fff 0%,
+        rgba(255, 255, 255, 0) 118.12%,
+        rgba(255, 255, 255, 0) 118.12%
+      )
+    );
+    background-clip: text;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+@media (max-width: 576px) {
+  .ach {
+    font-size: 20px !important;
+  }
+  .airplane {
+    height: 70px !important;
+    width: 100px !important;
+  }
+  .globOne {
+    width: 80px !important;
+  }
+  .chairman {
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .over {
+    /* overflow-x: auto !important; */
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+
+  .cardBorder {
+    border: 2px solid !important;
+    border-image: linear-gradient(to right, #6b000a, #027e3f) 10 !important;
+    border-image-slice: 1 !important;
+    border-radius: 10px !important;
+    height: 340px;
+  }
+
+  .t {
+    position: static !important;
+    margin: 10px;
+  }
+
+  .comaPic {
+    display: none !important;
+  }
+
+  .midFlex {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+  }
+
+  @media screen and (max-width: 991px) {
+    .posOne {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    /* .pstwo{
+      display: block !important;
+      background-image: url("./testmonial-bg/Group\ 3.png");
+      width: 100% !important;
+      height: 50% !important;
+      background-size: cover !important;
+      background-repeat: no-repeat !important;
+    } */
+  }
+
+  .publish {
+    padding-inline: 0px !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .t4 {
+    bottom: -90px;
+    left: 400px;
+  }
+}
+
+/* media query end ------------ */
+
+/* landing page css end ------------------------- */
+
+/* contactpage css start --------------------------- */
+
+/* services page css start ----------- */
+.our {
+  color: silver;
+  font-family: Arial;
+}
+.contact-rond {
+  border-radius: 25px !important;
+}
+.back {
+  background: var(--Base, #0b0000);
+}
+
+.level {
+  height: 220px !important;
+  border: 2px solid !important;
+  border-image: linear-gradient(to right, #6b000a, #027e3f) 10 !important;
+  border-image-slice: 1 !important;
+  border-radius: 10px !important;
+}
+
+.whyHead {
+  background: var(
+    --silver,
+    linear-gradient(
+      180deg,
+      #fff 0%,
+      rgba(255, 255, 255, 0) 118.12%,
+      rgba(255, 255, 255, 0) 118.12%
+    )
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.registered {
+  background: var(
+    --silver,
+    linear-gradient(
+      180deg,
+      #fff 0%,
+      rgba(255, 255, 255, 0) 118.12%,
+      rgba(255, 255, 255, 0) 118.12%
+    )
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cardBorder {
+  border: 2px solid !important;
+  border-image: linear-gradient(to right, #6b000a, #027e3f) 10 !important;
+  border-image-slice: 1 !important;
+  border-radius: 10px !important;
+  height: 245px !important;
+}
+
+.tickImg {
+  width: 60px;
+  height: 60px;
+}
+
+.redicons {
+  width: 40px;
+  height: 40px;
+  background: #69020b;
+}
+
+.inp {
+  color: white !important;
+  border: 1px solid var(--silver, #fff);
+  background: linear-gradient(
+    135deg,
+    rgba(2, 126, 63, 0.4) -1.25%,
+    rgba(16, 19, 35, 0) 104.62%
+  );
+}
+
+.customborder {
+  /* border: 4px solid !important; */
+  border-image: linear-gradient(#5a1513 40%, #176635 80%) !important;
+  border-image-slice: 1 !important;
+  border-radius: 10px !important;
+}
+
+.cantactMar {
+  padding-block: 150px !important;
+}
+
+@media (max-width: 576px) {
+  .cantactMar {
+    padding-block: 30px !important;
+  }
+}
+/* services page css end ----------- */
+
+.topnavicon {
+  width: 25px;
+}
+
+.uppernav {
+  background: linear-gradient(
+    to right,
+    #0e1e0b,
+    #0d160a,
+    #180705,
+    #131212,
+    #131212
+  ) !important;
+}
+.slick-prev:before{
+  display: none !important;
+
+}
+.slick-next:before{
+  display: none !important;
+}
+
+.ach {
+  font-family: Arial;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  background: var(
+    --silver,
+    linear-gradient(
+      180deg,
+      #fff 0%,
+      rgba(255, 255, 255, 0) 118.12%,
+      rgba(255, 255, 255, 0) 118.12%
+    )
+  );
+  background-clip: text;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.upppernav-a {
+  font-family: "poppins", sans-serif;
+}
+
+.custom-nav {
+  /* background-color: #0f0705 !important; */
+  font-family: "poppins", sans-serif;
+}
+
+.navactive::after,
+.navactive::before {
+  display: none;
+  /* Initially hide the pseudo-elements */
+}
+.count{
+  font-size: 35px !important;
+}
+@media (max-width: 576px) {
+  .count{
+    font-size: 15px !important;
+  }
+}
+
+.navactive {
+  position: relative;
+}
+
+.navactive:hover::after {
+  display: block;
+  content: "";
+  position: absolute;
+  height: 6px;
+  width: 6px;
+  background: #6a010a;
+  left: 8px;
+  bottom: 5.5px;
+  border-radius: 50%;
+}
+
+.navactive:hover::before {
+  display: block;
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 40px;
+  background: #6a010a;
+  left: 16px;
+  bottom: 6px;
+  border-radius: 5px;
+}
+
+.navactive-adj:hover::before {
+  display: block;
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 53px;
+  background: #6a010a;
+  left: 16px;
+  bottom: 6px;
+  border-radius: 5px;
+}
+
+.qoutebtn {
+  background: #69020b !important;
+}
+
+/* Toggler icon color */
+.navbar-toggler {
+  background-color: #69020b !important;
+  border-radius: 0.2em;
+  border: 1.5px solid white !important;
+}
+
+.main-h1 {
+  background: var(
+    --silver,
+    linear-gradient(
+      180deg,
+      #fff 0%,
+      rgba(255, 255, 255, 0) 118.12%,
+      rgba(255, 255, 255, 0) 118.12%
+    )
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  font-family: "poppins", sans-serif;
+}
+
+.p-a {
+  font-size: small;
+}
+
+.redicons {
+  width: 40px;
+  height: 40px;
+  background: #69020b;
+}
+
+.navbar-scrolled {
+  /* background-color: #FFF !important; Change this to your desired color */
+  transition: background-color 0.5s ease-in-out;
+  /* background: linear-gradient(135deg, rgba(2, 126, 64, 0.933) -1.25%, rgba(16, 19, 35, 0.00) 104.62%); */
+  background: linear-gradient(to right, #140e07, #150606, #1c0e09) !important;
+}
+
+.ppp {
+  font-family: "poppins", sans-serif;
+}
+
+.ppp2 {
+  background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0.5) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+}
+
+.inp {
+  border: 1px solid var(--silver, #fff);
+  background: linear-gradient(
+    135deg,
+    rgba(2, 126, 63, 0.4) -1.25%,
+    rgba(16, 19, 35, 0) 104.62%
+  );
+}
+
+/* to give gradient to the input form border */
+
+.customborder {
+  position: relative;
+  background: linear-gradient(to right, #070f06, #150606, #000000) !important;
+
+  background-clip: padding-box;
+
+  /* border: solid 1px transparent; */
+  border-radius: 1rem;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -4px;
+    border-radius: 1rem;
+    background: linear-gradient(to bottom, #620b0f 40%, #027e3f);
+    opacity: 0.7;
+  }
+}
+
+/* ************media queries************ */
+/* ************************************* */
+@media (max-width: 992px) {
+  .navbar-scrolled {
+    /* background-color: #FFF !important; Change this to your desired color */
+    transition: background-color 0.5s ease-in-out;
+    /* background: #027E3F; */
+
+    background: linear-gradient(
+      135deg,
+      rgba(2, 126, 64, 0.933) -1.25%,
+      rgba(16, 19, 35, 0) 104.62%
+    );
+  }
+}
+
+/* contact page css end ---------------------- */
